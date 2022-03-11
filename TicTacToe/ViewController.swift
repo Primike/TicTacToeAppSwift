@@ -45,6 +45,16 @@ class ViewController: UIViewController {
             completed = true
             winLabel.text = "Red Wins!"
         }
+        if player1.count + player2.count > 8 {
+            switch winLabel.text {
+            case "Blue Wins!":
+                break
+            case "Red Wins!":
+                break
+            default:
+                winLabel.text = "Tic-Tac-Tie!"
+            }
+        }
     }
     
     func buttonStatments(x: Int, sender: UIButton) {
