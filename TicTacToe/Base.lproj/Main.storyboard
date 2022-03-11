@@ -27,6 +27,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Reset">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gCU-a7-SZK"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to Play!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehi-SD-9AA">
                                 <rect key="frame" x="20" y="727" width="374" height="50"/>
@@ -45,7 +48,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btj-cH-5QU">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="184.5"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -54,7 +57,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pO-oo-Hyo">
                                                 <rect key="frame" x="139.5" y="0.0" width="115" height="184.5"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -63,7 +66,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Gm-TI-xlc">
                                                 <rect key="frame" x="279.5" y="0.0" width="114.5" height="184.5"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -77,7 +80,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="js3-3g-zij">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="184"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -86,7 +89,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyJ-iT-bSJ">
                                                 <rect key="frame" x="139.5" y="0.0" width="115" height="184"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -95,7 +98,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PvS-OX-6IV">
                                                 <rect key="frame" x="279.5" y="0.0" width="114.5" height="184"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -109,7 +112,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxx-um-6WL">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="184.5"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -118,7 +121,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Dm-vh-aDH">
                                                 <rect key="frame" x="139.5" y="0.0" width="115" height="184.5"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -127,7 +130,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5H-8N-uee">
                                                 <rect key="frame" x="279.5" y="0.0" width="114.5" height="184.5"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
@@ -168,6 +171,15 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button1" destination="btj-cH-5QU" id="0b7-Ue-hYp"/>
+                        <outlet property="button2" destination="1pO-oo-Hyo" id="IGn-wW-xiy"/>
+                        <outlet property="button3" destination="7Gm-TI-xlc" id="a86-4w-2kk"/>
+                        <outlet property="button4" destination="js3-3g-zij" id="2K3-C6-aJ8"/>
+                        <outlet property="button5" destination="vyJ-iT-bSJ" id="KOd-cP-seB"/>
+                        <outlet property="button6" destination="PvS-OX-6IV" id="7ow-lo-i8c"/>
+                        <outlet property="button7" destination="sxx-um-6WL" id="wkS-Cp-Uii"/>
+                        <outlet property="button8" destination="3Dm-vh-aDH" id="5xg-1e-dye"/>
+                        <outlet property="button9" destination="N5H-8N-uee" id="by1-Ky-sqp"/>
                         <outlet property="winLabel" destination="Ehi-SD-9AA" id="ukB-Uc-mlV"/>
                     </connections>
                 </viewController>
@@ -180,11 +192,11 @@
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
